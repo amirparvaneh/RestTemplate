@@ -1,6 +1,7 @@
 package com.resttemplate.resttemplate;
 
 
+import javax.persistence.*;
 import java.io.Serializable;
 
 public class Card implements Serializable {

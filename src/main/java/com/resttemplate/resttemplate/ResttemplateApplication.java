@@ -13,6 +13,10 @@ public class ResttemplateApplication {
     public RestTemplate getResttemplate(){
         return new RestTemplate();
     }
+    @Bean
+    public CardServiceImp gert(){
+        return new CardServiceImp();
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(ResttemplateApplication.class, args);
