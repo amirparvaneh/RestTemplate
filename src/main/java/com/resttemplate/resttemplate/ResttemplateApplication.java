@@ -1,5 +1,6 @@
 package com.resttemplate.resttemplate;
 
+import com.resttemplate.resttemplate.service.CardServiceImp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
